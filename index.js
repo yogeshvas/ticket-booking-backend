@@ -4,6 +4,7 @@ import "dotenv/config";
 import bodyParser from "body-parser";
 import userRoutes from "./routes/user.js";
 import adminRoutes from "./routes/admin.js";
+import cors from "cors";
 const app = express();
 app.use(express.json());
 const corsOptions = {
